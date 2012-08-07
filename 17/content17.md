@@ -42,7 +42,7 @@
 
 zipdemo源代码及Makefile可以参见本项目git仓库。
 
-	本节完
+### 本节完
 
 > 附1.从本节起，本系列改用markdown语法，使用github.com的markdown解释器。
 本项目的github.com地址为：[https://github.com/lexdene/gcc_five_minute]。
