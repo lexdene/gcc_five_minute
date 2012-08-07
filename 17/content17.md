@@ -23,13 +23,13 @@
 
 * 安装libzip。
 
-	sudo apt-get install libzip-dev
+>	sudo apt-get install libzip-dev
 	这里需要注意一下，软件包libzip包含的是运行时库，而我们需要的是开发库，也就是libzip-dev。
 
 * 编写源代码，使用libzip中的函数。
 	* 首先要包含头文件。
 
-		#include <zip.h>
+>	#include <zip.h>
 
 	* 使用libzip中的函数。
 
@@ -38,11 +38,11 @@
 * 编译链接。
 	* 由于zip.h头文件是放在/usr/include下的，因此不需要显式地指定include目录。编译的步骤没有任何区别。
 
-		gcc -c -o zipdemo.o zipdemo.c
+>	gcc -c -o zipdemo.o zipdemo.c
 
 	* 链接时，需要指定链接的动态库的名字。这里我们使用-l参数。
 
-		gcc -lzip -o zipdemo zipdemo.o
+>	gcc -lzip -o zipdemo zipdemo.o
 
 
 zipdemo源代码及Makefile可以参见本项目git仓库。
