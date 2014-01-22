@@ -15,7 +15,7 @@
 	
 	好了，下面简单介绍一下我们的GCC吧。
 	
-	GCC刚开始的名字叫GNU C语言编译器（GNU C Compiler），是大神 理查德·马修·斯托曼 在1985年写的。那时候斯托曼只是为了写个好用的C语言编译器。
+	GCC刚开始的名字叫 GNU编译器套装（GNU Compiler Collection），是大神 理查德·马修·斯托曼 在1985年写的。那时候斯托曼只是为了写个好用的C语言编译器。
 	后来呢，GCC不止能编译C语言，开始能够编译各种语言，包括：C++、Fortran、Pascal、Objective-C、Java、Ada和Go等。这个时候呢，它的名字也改了。改成叫GNU编译器套装（GNU Compiler Collection），但是缩写没变，还是GCC。
 	
 	不过，我们这个系列文章使用是它本来的概念：GNU C Compiler。因为我们止以C／C++为例介绍GCC的使用。
