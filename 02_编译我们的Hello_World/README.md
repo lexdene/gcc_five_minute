@@ -1,4 +1,4 @@
-# 《gcc五分钟系列》第二节：编译我们的Hello World
+# 第二节：编译我们的Hello World
 
 ## 干点啥事都得从Hello World开始，这是谁规定的？
 
