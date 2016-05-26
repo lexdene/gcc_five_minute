@@ -14,6 +14,6 @@
 本系列文章可能不会及时更新。
 所以请您在正式使用前 *务必* 确认您的`gcc`版本并参考`gcc`的说明文档。
 
-## 电子书下载
+## 在线阅读与电子书下载
 
-电子书下载地址: http://lexdene.github.io/gcc-five-minutes-ebook/downloads.html
+gitbook 主页: https://www.gitbook.com/book/lexdene/gcc-five-minutes
