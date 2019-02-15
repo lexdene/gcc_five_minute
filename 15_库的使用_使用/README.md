@@ -23,6 +23,10 @@
 	sudo apt-get install libzip-dev
 
 这里需要注意一下，软件包libzip包含的是运行时库，而我们需要的是开发库，也就是libzip-dev。
+
+在Debian系的Linux发行版中，有dev后缀的包内容为头文件。包名为libxxx的包则包含形如libxxx.so的共享库文件。Arch系发行版将头文件与共享库文件一同打包。
+
+如果希望编译后立刻使用项目，则应该把共享库文件也装上。
 ### 2.编写源代码，使用libzip中的函数。
 #### 2.1.首先要包含头文件。
 
